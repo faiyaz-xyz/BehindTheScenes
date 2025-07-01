@@ -7,7 +7,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "commit": "node --loader ts-node/esm index.mts"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
