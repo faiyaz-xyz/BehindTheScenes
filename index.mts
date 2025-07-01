@@ -50,7 +50,7 @@ if (hour >= 5 && hour < 12) {
   console.log("✅ Evening lesson committed");
 } else {
   // 🌙 Night - Website promo
-  const siteURL = "https://behindthescenes.vercel.app";
+  const siteURL = "https://behindthescenes-taupe.vercel.app/";
   const frontmatter = `---\ntitle: "📢 Nightly Reminder"\ndate: "${datePretty}"\n---`;
   const content = `Hey there! 👋\n\nDon't forget to check out my daily dev drops at 👉 [BehindTheScenes](${siteURL})`;
   writeFile(`${dateFilePart}-reminder`, frontmatter, content);
