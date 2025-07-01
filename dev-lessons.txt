@@ -1,0 +1,10 @@
+HTML: Use semantic tags like <header>, <main>, and <footer> for better accessibility.
+CSS: Use flexbox for layout. It's easier than you think.
+JS: Use === instead of == to avoid weird type coercion bugs.
+React: Components must start with a capital letter.
+JS: Prefer const over let when variables don’t change.
+Next.js: Pages in /app folder are server components by default.
+Tailwind: Use responsive prefixes like sm:, md:, lg: to style for different screen sizes.
+Firebase: Firestore is NoSQL. Structure your data like a tree, not a table.
+shadcn/ui: Easy to customize. You can overwrite any class with Tailwind.
+Git: Use branches for new features — keeps main clean.
